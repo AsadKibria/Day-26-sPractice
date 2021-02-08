@@ -1,0 +1,143 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background: rgb(0, 66, 82);
+}
+.header img{
+    width: 160px;
+    height: auto;
+    padding: 9px 0;
+    
+}
+
+.header-menu{
+    text-align: right;
+}
+.header-menu ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.header-menu ul li{
+    display: inline-block;
+
+}
+.header-menu ul li a{
+    color: #cadaec;
+    font-size: 20px;
+    line-height: 73px;
+    padding: 0 9px;
+    text-decoration: none;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 6px;
+    margin-left: 7px;
+
+
+}
+.header-menu ul li a:hover{
+    background-color: #e67d22;
+    border-radius: 0px 9px;
+}
+
+.banner{
+    background-image: url(./img/slider-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner h1{
+    font-size: 2.5rem;
+    background-color: #0096a7;
+    display: inline;
+    padding: 0 13px;
+    border-radius: 0px 11px;
+    border: 2px solid #004151;
+}
+.banner h2{
+    background-color: #e67d22;
+    display: inline;
+    padding: 0 10px;
+    border-radius: 0 12px;
+    border: 2px solid #004252;
+    color: #3b4e5d;
+}
+
+.about{
+    background: #c7ccd0;;
+}
+.about h2{}
+.about p{}
+
+.service{
+    background:#cfd6dc;
+}
+.service span{
+    width: 60px;
+    height: 60px;
+    background: #004153;
+    margin: auto;
+    line-height: 63px;
+    font-size: 28px;
+    border-radius: 0 23px;
+    margin-top: 15px;
+    color: white;
+}
+
+/* Teem */
+.teem{
+    background: #e2e7e8;
+}
+.teem .teem-membor img{
+    max-width: 100%;
+    height: auto;
+}
+.teem .teem-membor p{
+    font-size: 18px;
+}
+.notificatiom{}
+.notificatiom h2{}
+.notificatiom ul{
+    list-style: none;
+    padding-left: 0;
+    
+}
+.notificatiom ul li{
+    font-size: 17px;
+    line-height: 40px;
+    padding: 0 7px;
+    border: 1px solid rgb(186, 188, 194);
+    border-radius: 4px;
+    background: #d3dae0;
+    margin-bottom: 10px;
+}
+
+/* Contact form */
+.contact-form{}
+.contact-form input, textarea{
+    margin-bottom: 13px;
+}
+
+.footer{
+    background: #203342;
+    padding: 40px;
+    padding-bottom: 11px;
+}
+.footer h4{
+       color: rgb(255, 255, 255);
+}
+.footer ul{
+    list-style: none;
+    text-align: right;
+}
+.footer ul li{
+    display: inline-block;
+ 
+}
+.footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #fff0;
+    font-size: 24px;
+    margin-left: 28px;
+}
